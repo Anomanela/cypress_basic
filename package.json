@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --headed --browser chrome --spec cypress/e2e/blaze/*.cy.js",
+    "hw1": "cypress run  --browser chrome --spec cypress/e2e/Homework/Logout.cy.js",
+    "hw2": "cypress run  --headed --browser chrome --spec cypress/e2e/Homework/addtocart.cy.js",
+    "open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.7.0",
+    "cypress-mochawesome-reporter": "^3.3.0"
+  }
+}
